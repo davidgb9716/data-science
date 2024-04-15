@@ -1,0 +1,1 @@
+In this project, I'll be taking the data from this Kaggle Dataset, "Graduation from Czech universities" (https://www.kaggle.com/datasets/jetakow/graduation-from-czech-universities/data) through the entire Data Science process.
