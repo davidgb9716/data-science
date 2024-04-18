@@ -15,3 +15,6 @@ print(dtype_dict)
 #Identify missing values
 missing_values = df.isna() #Using isna() over isnull() is recommended as a best practice.
 print(missing_values.sum())
+
+#Handle missing values (by imputation or deletion)
+missing_values_list = list(missing_values.sum())
