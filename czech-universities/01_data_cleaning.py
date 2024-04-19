@@ -18,3 +18,12 @@ print(missing_values.sum())
 
 #Handle missing values (by imputation or deletion)
 missing_values_list = list(missing_values.sum())
+
+if sum(missing_values_list) != 0:
+	#Impute cells with missing values
+	df = df.fillna(df.mean())
+	print(df)
+
+	#Drop rows with missing values
+	df = df.dropna()
+	print(df)
