@@ -24,6 +24,10 @@ if sum(missing_values_list) != 0:
 	df = df.fillna(df.mean())
 	print(df)
 
-	#Drop rows with missing values
+	#Drop (delete) rows with missing values
 	df = df.dropna()
 	print(df)
+
+#Remove duplicates
+df = df.drop_duplicates()
+print(df)
