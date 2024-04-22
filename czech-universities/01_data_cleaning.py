@@ -31,3 +31,15 @@ if sum(missing_values_list) != 0:
 #Remove duplicates
 df = df.drop_duplicates()
 print(df)
+
+#Identify and handle outliers
+def detect_outliers(data):
+	threshold = 3
+	outliers = []
+	mean = np.mean(data)
+	std = np.std(data)
+	for x in data:
+		z_score = (x - mean)/std
+		if np.abs(z_score) > threshold:
+			outliers.append(x)
+	return outliers
