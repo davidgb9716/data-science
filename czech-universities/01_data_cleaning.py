@@ -48,3 +48,11 @@ filtered_dict = {k: v for k, v in dtype_dict.items() if v != np.dtype('O')}
 print(filtered_dict)
 filtered_list = list(filtered_dict.keys())
 print(filtered_list)
+
+outliers_dict = {}
+
+for col in filtered_list:
+	outliers = detect_outliers(df[col])
+	outliers_dict[col] = outliers
+
+print(outliers_dict)
