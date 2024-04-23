@@ -46,5 +46,5 @@ def detect_outliers(data):
 
 filtered_dict = {k: v for k, v in dtype_dict.items() if v != np.dtype('O')}
 print(filtered_dict)
-filtered_dict_list = list(filtered_dict.keys())
-print(filtered_dict_list)
+filtered_list = list(filtered_dict.keys())
+print(filtered_list)
