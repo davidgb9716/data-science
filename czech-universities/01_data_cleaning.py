@@ -33,26 +33,22 @@ df = df.drop_duplicates()
 print(df)
 
 #Identify and handle outliers
-def detect_outliers(data):
-	threshold = 3
-	outliers = []
-	mean = np.mean(data)
-	std = np.std(data)
-	for x in data:
-		z_score = (x - mean)/std
-		if np.abs(z_score) > threshold:
-			outliers.append(x)
-	return outliers
+numerical_cols_dict = {k: v for k, v in dtype_dict.items() if v != np.dtype('O')}
+numerical_cols_list = list(numerical_cols_dict.keys())
+df_numerical = df[numerical_cols_list]
+print(df_numerical)
 
-filtered_dict = {k: v for k, v in dtype_dict.items() if v != np.dtype('O')}
-print(filtered_dict)
-filtered_list = list(filtered_dict.keys())
-print(filtered_list)
+def handle_outliers(data):
+	df_cols = data.columns
+	
+	for col in df_cols:
+		q1 = data[col].quantile(0.25)
+		q3 = data[col].quantile(0.75)
+		iqr = q3 - q1
+		outlier_free_df = df[(df[col] >= (q1 - 1.5 * iqr)) & (df[col] <= (q3 + 1.5 * iqr))]
+		data = outlier_free_df
+	
+	return data
 
-outliers_dict = {}
-
-for col in filtered_list:
-	outliers = detect_outliers(df[col])
-	outliers_dict[col] = outliers
-
-print(outliers_dict)
+df = handle_outliers(df_numerical)
+print(df)
