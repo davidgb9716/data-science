@@ -6,16 +6,16 @@ In this project, I'll be taking the data from this Kaggle Dataset, "Graduation f
 
 To work with this data, I will use the CRISP-DM Methodology.
 
-## Business Understanding
+## 01. Business Understanding
 
-## Data Understanding
+## 02. Data Understanding
 
-## Data Preparation
+## 03. Data Preparation
 
 In this stage, I'll identify and handle any potential missing data, remove duplicates, identify and handle outliers, normalize and standardize the data, handle inconsistent data, perform string encoding, and save this new dataset which will then be used in the following stages.
 
-## Modeling
+## 04. Modeling
 
-## Evaluation
+## 05. Evaluation
 
-## Deployment
+## 06. Deployment
