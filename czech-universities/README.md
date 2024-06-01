@@ -8,6 +8,8 @@ To work with this data, I will use the CRISP-DM Methodology.
 
 ## 01. Business Understanding
 
+The first step in the CRISP-DM Methodology is Business Understanding.
+
 ## 02. Data Understanding
 
 ## 03. Data Preparation
