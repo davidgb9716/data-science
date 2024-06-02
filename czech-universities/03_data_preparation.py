@@ -53,11 +53,11 @@ def handle_outliers(df):
 			
 		return col.apply(replace_value)
 	
-	# Apply only to numerical columns
+	#Apply only to numerical columns
 	numerical_cols = df.select_dtypes(include=['number'])
 	outlier_free_df = numerical_cols.apply(replace_outliers, axis=0)
 	
-	# Combine numerical and non-numerical columns
+	#Combine numerical and non-numerical columns
 	non_numerical_cols = df.select_dtypes(exclude=['number'])
 	result_df = pd.concat([outlier_free_df, non_numerical_cols], axis=1)
 	
