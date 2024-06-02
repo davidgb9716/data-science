@@ -8,7 +8,7 @@ To work with this data, I will use the CRISP-DM Methodology.
 
 ## 01. Business Understanding
 
-The first step in the CRISP-DM Methodology is Business Understanding.
+The first step in the CRISP-DM Methodology is Business Understanding. In this step, our goal is to understand the business problem; what we hope to gather from the data in order to get a solution.
 
 ### Questions to answer at the end of the methodology
 - What was the biggest cause of not graduating?
