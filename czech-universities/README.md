@@ -12,7 +12,9 @@ The first step in the CRISP-DM Methodology is Business Understanding. In this st
 
 ### Questions to answer at the end of the methodology
 - What was the biggest cause of not graduating?
-- Which programs have the highest graduation rates?
+- Which colleges have the highest and lowest graduation rates?
+- Which programs have the highest and lowest graduation rates?
+- Do the programs, when grouped by college, show a similar trend to the programs individually in relation to graduation rates?
 
 ## 02. Data Understanding
 
