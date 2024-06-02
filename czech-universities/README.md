@@ -10,6 +10,9 @@ To work with this data, I will use the CRISP-DM Methodology.
 
 The first step in the CRISP-DM Methodology is Business Understanding.
 
+### Questions
+- What was the biggest cause of not graduating?
+
 ## 02. Data Understanding
 
 ## 03. Data Preparation
