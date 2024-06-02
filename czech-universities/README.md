@@ -10,7 +10,7 @@ To work with this data, I will use the CRISP-DM Methodology.
 
 The first step in the CRISP-DM Methodology is Business Understanding.
 
-### Questions
+### Questions to answer at the end of the methodology
 - What was the biggest cause of not graduating?
 - Which programs have the highest graduation rates?
 
@@ -25,3 +25,5 @@ In this stage, I'll identify and handle any potential missing data, remove dupli
 ## 05. Evaluation
 
 ## 06. Deployment
+
+## Conclusion
