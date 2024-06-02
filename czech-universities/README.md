@@ -16,9 +16,11 @@ The first step in the CRISP-DM Methodology is Business Understanding. In this st
 
 ## 02. Data Understanding
 
+In this stage, our goal is to understand the data and its contents.
+
 ## 03. Data Preparation
 
-In this stage, I'll identify and handle any potential missing data, remove duplicates, identify and handle outliers, normalize and standardize the data, handle inconsistent data, perform string encoding, and save this new dataset which will then be used in the following stages.
+In this stage, our goal is to manipulate and transform the data in order to use it more effectively in later stages. I'll identify and handle any potential missing data, remove duplicates, identify and handle outliers, normalize and standardize the data, handle inconsistent data, perform string encoding, and save this new dataset which will then be used in the following stages.
 
 ## 04. Modeling
 
