@@ -21,11 +21,10 @@ The first step in the CRISP-DM Methodology is Business Understanding. In this st
 In this stage, our goal is to understand the data and its contents.
 
 ### Correlation Heatmap
-![correlation_heatmap](https://github.com/davidgb9716/data-science/assets/83733181/bb4e3336-d67b-496f-84d9-eeab35e4b62d)
+![correlation_heatmap](https://github.com/davidgb9716/data-science/assets/83733181/74f0e232-bdbb-41ad-843d-426f7f9c4c76)
 
 ### Correlation Heatmap with Annotations
-![correlation_heatmap_with_annotations](https://github.com/davidgb9716/data-science/assets/83733181/0d541db4-f8a7-479d-a330-b131b187da2b)
-
+![correlation_heatmap_with_annotations](https://github.com/davidgb9716/data-science/assets/83733181/5ddc00e3-6f24-4f66-bf0a-1fe0adc58fb3)
 
 ## 03. Data Preparation
 
