@@ -4,7 +4,7 @@
 
 In this project, I'll be taking the data from this Kaggle Dataset, "Graduation from Czech universities" (https://www.kaggle.com/datasets/jetakow/graduation-from-czech-universities/data) through the entire Data Science process.
 
-To work with this data, I will use the CRISP-DM Methodology.
+To work with this dataset and effectively communicate the process in clear, concise steps, I'll use the CRISP-DM Methodology.
 
 ## 01. Business Understanding
 
