@@ -20,6 +20,8 @@ The first step in the CRISP-DM Methodology is Business Understanding. In this st
 
 In this stage, our goal is to understand the data and its contents. I'll handle tasks such as data collection, data description, data exploration (Exploratory Data Analysis, or EDA); among others.
 
+In terms of data collection, as mentioned previously, the dataset that I will be working with comes from Kaggle. It's called, "Graduation from Czech universities". This dataset, according to the Kaggle Contributor who uploaded it (Daniel Herman), is a "scraped collection of data from a Czech Statistical Institute website tracking course of studies at public and private universities."
+
 ### Correlation Heatmap
 ![correlation_heatmap](https://github.com/davidgb9716/data-science/assets/83733181/74f0e232-bdbb-41ad-843d-426f7f9c4c76)
 
