@@ -18,7 +18,7 @@ The first step in the CRISP-DM Methodology is Business Understanding. In this st
 
 ## 02. Data Understanding
 
-In this stage, our goal is to understand the data and its contents.
+In this stage, our goal is to understand the data and its contents. I'll handle tasks such as data collection, data description, data exploration (Exploratory Data Analysis, or EDA); among others.
 
 ### Correlation Heatmap
 ![correlation_heatmap](https://github.com/davidgb9716/data-science/assets/83733181/74f0e232-bdbb-41ad-843d-426f7f9c4c76)
