@@ -22,6 +22,16 @@ In this stage, our goal is to understand the data and its contents. I'll handle 
 
 In terms of data collection, as mentioned previously, the dataset that I will be working with comes from Kaggle. It's called, "Graduation from Czech universities". This dataset, according to the Kaggle Contributor who uploaded it (Daniel Herman), is a "scraped collection of data from a Czech Statistical Institute website tracking course of studies at public and private universities."
 
+### Year of Enrollment Histogram
+![year_of_enrollment_histogram](https://github.com/davidgb9716/data-science/assets/83733181/7183ff55-c003-4bd1-bd7b-22ffd9cc8dcb)
+
+We can observe that the peak of student enrollment was around 2004. With this information, I want to figure out what were the most active colleges and those college's most active faculties.
+
+There's a noticeable down trend, which prompts further investigation as to why that's happening.
+
+(DataFrame or Screen Shot)
+As shown in the DataFrame (or image) above, that the most active study programs are bachelor's degrees. Therefore, we're only going to focus on the most active colleges and faculties in the year with the highest enrollment (2004), and in their most popular study program (Bachelor's degree).
+
 ### Correlation Heatmap
 ![correlation_heatmap](https://github.com/davidgb9716/data-science/assets/83733181/74f0e232-bdbb-41ad-843d-426f7f9c4c76)
 
