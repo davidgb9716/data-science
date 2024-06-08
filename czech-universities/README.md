@@ -34,10 +34,10 @@ There's a noticeable down trend, which prompts further investigation as to why t
 As shown in the DataFrame (or image) above, that the most active study programs are bachelor's degrees. Therefore, we're only going to focus on the most active colleges and faculties in the year with the highest enrollment (2004), and in their most popular study program (Bachelor's degree).
 
 ### Correlation Heatmap
-![correlation_heatmap](https://github.com/davidgb9716/data-science/assets/83733181/74f0e232-bdbb-41ad-843d-426f7f9c4c76)
+![correlation_heatmap](https://github.com/davidgb9716/data-science/assets/83733181/cdcad8d2-24e4-4592-ae61-4ea3fa04a3c5)
 
 ### Correlation Heatmap with Annotations
-![correlation_heatmap_with_annotations](https://github.com/davidgb9716/data-science/assets/83733181/5ddc00e3-6f24-4f66-bf0a-1fe0adc58fb3)
+![correlation_heatmap_with_annotations](https://github.com/davidgb9716/data-science/assets/83733181/a5fecb91-1e79-46f1-9fc7-8ea35864fcd4)
 
 ## 03. Data Preparation
 
