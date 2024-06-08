@@ -29,7 +29,8 @@ We can observe that the peak of student enrollment was around 2004. With this in
 
 There's a noticeable down trend, which prompts further investigation as to why that's happening.
 
-(DataFrame or Screen Shot)
+![Screen Shot 2024-06-07 at 20 14 41](https://github.com/davidgb9716/data-science/assets/83733181/a3b6a937-938a-4eb7-a010-4f85a5d0a7db)
+
 As shown in the DataFrame (or image) above, that the most active study programs are bachelor's degrees. Therefore, we're only going to focus on the most active colleges and faculties in the year with the highest enrollment (2004), and in their most popular study program (Bachelor's degree).
 
 ### Correlation Heatmap
