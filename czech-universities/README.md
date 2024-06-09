@@ -33,6 +33,25 @@ There's a noticeable down trend, which prompts further investigation as to why t
 
 As shown in the DataFrame (or image) above, that the most active study programs are bachelor's degrees. Therefore, we're only going to focus on the most active colleges and faculties in the year with the highest enrollment (2004), and in their most popular study program (Bachelor's degree).
 
+According to Eurydice (https://eurydice.eacea.ec.europa.eu/national-education-systems/czechia/bachelor), "The standard length of studies [in the Czech Republic] including practical training is no less than three and no more than four years."
+
+Since it takes at least three years to get a Bachelor's degree from a Czech university, we'll use the year with the highest enrollment numbers as reference. We'll take into account the three years we previously talked about, and within that year, We can observe the following results:
+
+![Screen Shot 2024-06-09 at 1 24 35](https://github.com/davidgb9716/data-science/assets/83733181/5f96e248-6d7a-41c2-bc2a-3b3a605d0b4e)
+
+The Univerisites with the most students who completed their Bachelor's degree program are:
+1. Jan Amos Comenius University Prague, s.r.o. (1187)
+2. AMBIS - college, a. s. (894)
+3. Tomas Bata University in Zlín (769)
+4. University of Mining - Technical University of Ostrava (739)
+5. Czech University of Agriculture in Prague (709)
+
+The problem with this approach is that even though we're considering the universities with the most program completions, we're also separating them by their respective faculties.
+
+The better approach would be to group the universities together and count again, not taking the faculties into consdiration. The results are the following:
+
+(Results)
+
 ### Correlation Heatmap
 ![correlation_heatmap](https://github.com/davidgb9716/data-science/assets/83733181/cdcad8d2-24e4-4592-ae61-4ea3fa04a3c5)
 
