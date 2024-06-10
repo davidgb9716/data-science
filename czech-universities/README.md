@@ -25,9 +25,9 @@ In terms of data collection, as mentioned previously, the dataset that I will be
 ### Year of Enrollment Histogram
 ![year_of_enrollment_histogram](https://github.com/davidgb9716/data-science/assets/83733181/7183ff55-c003-4bd1-bd7b-22ffd9cc8dcb)
 
-We can observe that the peak of student enrollment was around 2004. With this information, I want to figure out what were the most active colleges and those college's most active faculties.
+We can observe that the peak of student enrollment was around 2004. With this information, I want to figure out what were the most active colleges and what those college's most active faculties were.
 
-There's a noticeable down trend, which prompts further investigation as to why that's happening.
+It's also important to observe that there's a noticeable down trend in the enrollment of Czech universities, which prompts further investigation as to why that's happening. According to the Czech Education Ministry's annual report released to the ČTK (Czech News Agency), one significant reason that explains the decline in enrollment to these universities is the demographic decline that has led to fewer young people entering higher education. Additionally, economic factors, such as low public funding for universities, have made higher education less accessible and appealing. What's more, the Czech Republic has one of the lowest rates of university graduates in the European Union. Only about 26.67% of Czechs aged 25 - 64 have a university degree, which is significantly below the European Union's average of 37.67%​.
 
 ![Screen Shot 2024-06-07 at 20 14 41](https://github.com/davidgb9716/data-science/assets/83733181/a3b6a937-938a-4eb7-a010-4f85a5d0a7db)
 
@@ -70,3 +70,6 @@ In this stage, our goal is to manipulate and transform the data in order to use 
 ## 06. Deployment
 
 ## Conclusion
+
+## Sources
+
