@@ -50,7 +50,8 @@ The problem with this approach is that even though we're considering the univers
 
 The better approach would be to group the universities together and count again, not taking the faculties into consdiration. The results are the following:
 
-(Results)
+![Screen Shot 2024-06-10 at 13 34 29](https://github.com/davidgb9716/data-science/assets/83733181/b2948313-ec7c-41ed-b946-850bbe0bc3af)
+
 
 ### Correlation Heatmap
 ![correlation_heatmap](https://github.com/davidgb9716/data-science/assets/83733181/cdcad8d2-24e4-4592-ae61-4ea3fa04a3c5)
