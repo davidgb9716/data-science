@@ -4,7 +4,7 @@
 
 In this project, I'll be taking the data from this Kaggle Dataset, "Graduation from Czech universities" (https://www.kaggle.com/datasets/jetakow/graduation-from-czech-universities/data) through the entire Data Science process.
 
-To work with this dataset and effectively communicate the process in clear, concise steps, I'll use the CRISP-DM Methodology.
+In order to work with this dataset and effectively communicate the process in a clear, step-by-step manner, I'll use the CRISP-DM Methodology. The CRSIP-DM (Cross-Industry Standard Process for Data Mining) methodology is a structured, six-phase process for data mining projects. It encompasses the following steps: business understanding, data understanding, data preparation, modeling, evaluation, and deployment. It serves as a comprehensive framework for data science projects, guiding data scientists through systematic and repeatable steps to extract valuable insights and achieve business objectives.
 
 ## 01. Business Understanding
 
