@@ -26,6 +26,12 @@ In this stage, our goal is to essentially understand the data and its contents. 
 
 In terms of data collection, as mentioned previously, the dataset that I will be working with comes from Kaggle. It's called, "Graduation from Czech universities". This dataset, according to the Kaggle Contributor who uploaded it (Daniel Herman), is a "scraped collection of data from a Czech Statistical Institute website tracking course of studies at public and private universities."
 
+Let's begin analyzing the data. The first thing we're going to do is get basic information on the data and get a description of the data. As you can see, we have some categorical values (those whose Dtype, or data type, has been labeled as 'object') and we also have some numerical values (those whose Dtype has been labeled as 'int64'). We can also gather that we have 511,053 total rows in each column and there is not a single Null value in this DataFrame. At the very bottom of the image we are told that there are 11 numerical columns and 6 categorical columns, as well as the memory usage of the specific DataFrame.
+
+![Screen Shot 2024-06-13 at 17 42 44](https://github.com/davidgb9716/data-science/assets/83733181/f6fe64f8-e924-4ef4-8be9-7f215645bac8)
+
+Afterwards, we're going to visualize the correlations between the numerical data points.
+
 ### Year of Enrollment Histogram
 ![year_of_enrollment_histogram](https://github.com/davidgb9716/data-science/assets/83733181/7183ff55-c003-4bd1-bd7b-22ffd9cc8dcb)
 
