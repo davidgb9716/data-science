@@ -30,6 +30,10 @@ Let's begin analyzing the data. The first thing we're going to do is get basic i
 
 ![Screen Shot 2024-06-13 at 17 42 44](https://github.com/davidgb9716/data-science/assets/83733181/f6fe64f8-e924-4ef4-8be9-7f215645bac8)
 
+Now that we have some rudimentary information, let's get a statistical description of the numerical columns of our DataFrame.
+
+(Image)
+
 Afterwards, we're going to visualize the correlations between the numerical data points.
 
 ### Year of Enrollment Histogram
