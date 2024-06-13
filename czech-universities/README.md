@@ -20,6 +20,8 @@ This step involves understanding the business context, defining the business obj
 
 ## 02. Data Understanding
 
+Data Understanding is the second stage in the CRISP-DM framework. This step is focused on collecting and familiarizing ourselves with the data. This involves acquiring the initial data, describing the data, exploring the data to identify patterns, and verifying data quality. Key tasks include gathering the data, assessing its quality, and gaining insights that will help in formulating hypotheses and guiding subsequent data preparation and modeling efforts.
+
 In this stage, our goal is to understand the data and its contents. I'll handle tasks such as data collection, data description, data exploration (Exploratory Data Analysis, or EDA); among others.
 
 In terms of data collection, as mentioned previously, the dataset that I will be working with comes from Kaggle. It's called, "Graduation from Czech universities". This dataset, according to the Kaggle Contributor who uploaded it (Daniel Herman), is a "scraped collection of data from a Czech Statistical Institute website tracking course of studies at public and private universities."
