@@ -11,3 +11,6 @@ print(df)
 #Identify categorical and numerical columns in our DataFrame
 df_categorical = df.select_dtypes(include='object')
 df_numerical = df.select_dtypes(include='number')
+
+#Descriptive analytics
+df.info()
