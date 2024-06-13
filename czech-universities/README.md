@@ -8,7 +8,9 @@ In order to work with this dataset and effectively communicate the process in a 
 
 ## 01. Business Understanding
 
-The first step in the CRISP-DM Methodology is Business Understanding. In this step, our goal is to understand the business problem; what we hope to gather from the data in order to get a solution.
+The first step in the CRISP-DM Methodology is Business Understanding. In this step, the project objectives and requirements from a business perspective are established. In essence, our goal is to understand the business problem and to determine what we hope to gather from the data in order to find a solution to our business problem.
+
+This step involves understanding the business context, defining the business objectives, and converting these into a data science problem definition. Key tasks include assessing the situation, determining the goals of the project, and developing a plan to achieve these goals using data science techniques.
 
 ### Questions to answer at the end of the methodology
 - What was the biggest cause of not graduating?
